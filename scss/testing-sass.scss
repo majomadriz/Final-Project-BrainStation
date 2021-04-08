@@ -1,0 +1,115 @@
+@import './variables.scss';
+@import './mixins.scss';
+
+//General
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-size: $html-font-size;
+}
+
+.bordered {
+    border: 1px dashed grey;
+    height: 100px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.form-control {
+    border-radius: 2rem;
+}
+
+.badge {
+    background-color: #ED1C24;
+}
+
+
+
+
+.container {
+
+}
+
+//Nav
+
+a {
+    font-family: 'Quicksand', sans-serif;
+}
+
+//Margins
+.section-margin {
+    margin-bottom: 70px;
+}
+
+ //Buttons   
+.btn-outline-subscribe {
+    color: #ffffff;
+    background-color: $main-color;
+    border-color: $main-color;
+    border-radius: 50px;
+    border-width: 2px;
+    margin-right: 15px;
+    font-size: 12px;
+    width: 108px;
+    height: 40px;
+    font-family: 'Quicksand', sans-serif;
+    &:hover {
+        color: $main-color;
+        background-color: #ffffff;
+    }
+}
+
+.btn-outline-login {
+    color: $main-color;
+    border-color: $main-color;
+    border-radius: 50px;
+    border-width: 2px; 
+    font-size: 12px;
+    width: 108px;
+    height: 40px;
+    font-family: 'Quicksand', sans-serif;
+    &:hover {
+        color: #ffffff;
+        background-color: $main-color
+    }
+}
+
+.btn-main {
+    color: #ffffff;
+    background-color: $main-color;
+    border-color: $main-color;
+    border-radius: 50px;
+    border-width: 2px;
+    margin-right: 15px;
+    font-size: 12px;
+    width: 108px;
+    height: 40px;
+    font-family: 'Quicksand', sans-serif;
+    &:hover {
+        color: $main-color;
+        background-color: #ffffff;
+    }
+}
+
+//Img
+.image-header {
+    width: 500px;
+}
+
+//Text
+//Header
+.title-header {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 52px;;
+    color: $main-color;
+    margin: 12px 0px;
+    line-height: 56px;
+}
+
+.subtitle-header {
+    font-size: 14px;
+    font-family: 'Quicksand', sans-serif;
+    line-height: 22px;
+    margin-bottom: 20px;
+}

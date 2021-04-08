@@ -1,0 +1,5 @@
+@import './variables.scss';
+
+@function toRem($value) {
+    @return #{$value / $html-font-size}rem;
+}
