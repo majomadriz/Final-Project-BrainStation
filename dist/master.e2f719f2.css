@@ -87,6 +87,22 @@ a {
     background-color: transparent;
     border-color: #FFFFFF; }
 
+.btn-card-center-dark {
+  color: #ffffff;
+  background-color: #C67139;
+  border-color: #C67139;
+  border-radius: 50px;
+  border-width: 2px;
+  font-size: 12px;
+  width: 108px;
+  height: 40px;
+  font-family: 'Quicksand', sans-serif;
+  margin: 36px 0px 6px 0px;
+  line-height: 2.0; }
+  .btn-card-center-dark:hover {
+    color: #C67139;
+    background-color: #ffffff; }
+
 .image-header {
   width: 500px; }
 
@@ -116,8 +132,7 @@ a {
   font-size: 14px;
   margin: 12px 0px;
   line-height: 20px;
-  text-align: center;
-  padding: 10px 200px 50px 200px; }
+  text-align: center; }
 
 .small-text-centered {
   font-family: 'Quicksand', sans-serif;
@@ -150,8 +165,15 @@ a {
 .card-text {
   color: #FFFFFF; }
 
+.card-text-dark {
+  color: #000000; }
+
 .card-title {
   color: #FFFFFF; }
+
+.card-title-dark {
+  color: #C67139;
+  margin-bottom: 40px; }
 
 .card-body-opacity {
   background-color: rgba(0, 0, 0, 0.4); }

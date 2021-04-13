@@ -33,8 +33,6 @@ img {
 }
 
 
-
-
 .container {
 
 }
@@ -119,6 +117,24 @@ a {
     }
 }
 
+.btn-card-center-dark {
+    color: #ffffff;
+    background-color: $main-color;
+    border-color: $main-color;
+    border-radius: 50px;
+    border-width: 2px;
+    font-size: 12px;
+    width: 108px;
+    height: 40px;
+    font-family: 'Quicksand', sans-serif;
+    margin: 36px 0px 6px 0px;
+    line-height: 2.0;
+    &:hover {
+        color: $main-color;
+        background-color: #ffffff;
+    }
+}
+
 //Img
 .image-header {
     width: 500px;
@@ -156,7 +172,7 @@ a {
     margin: 12px 0px;
     line-height: 20px; 
     text-align: center;
-    padding: 10px 200px 50px 200px;
+    // padding: 10px 200px 50px 200px;
 }
 
 .small-text-centered {
@@ -186,6 +202,8 @@ a {
     color: $main-color;
 }
 
+//Cards
+
 .card-image {
     background-repeat: no-repeat;
     background-size: cover;
@@ -197,8 +215,18 @@ a {
     color: #FFFFFF;
 }
 
+.card-text-dark {
+    color: #000000;
+}
+
+
 .card-title {
     color: #FFFFFF;
+}
+
+.card-title-dark {
+    color: $main-color;
+    margin-bottom: 40px;
 }
 
 .card-body-opacity {
