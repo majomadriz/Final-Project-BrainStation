@@ -17,7 +17,9 @@ img {
 }
 
 .form-control {
-    border-radius: 2rem;
+    border-radius: 2px;
+    width: 100%;
+    font-size: 14px;
 }
 
 .header-padding {
@@ -32,15 +34,14 @@ img {
     background-color: #ED1C24;
 }
 
-
-.container {
-
-}
-
 //Nav
 
 a {
     font-family: 'Quicksand', sans-serif;
+}
+
+.navbar {
+    padding: 16px 12px;
 }
 
 //Margins
@@ -172,7 +173,7 @@ a {
     margin: 12px 0px;
     line-height: 20px; 
     text-align: center;
-    // padding: 10px 200px 50px 200px;
+    //padding: 10px 200px 50px 200px;
 }
 
 .small-text-centered {
@@ -238,3 +239,15 @@ a {
 -webkit-box-shadow: 3px 2px 8px -1px rgba(0,0,0,0.41);
 -moz-box-shadow: 3px 2px 8px -1px rgba(0,0,0,0.41);
 }
+
+//Cards
+
+.col-form-label {
+    font-size: 13px;
+}
+
+//Footer
+
+ .social-media-icons {
+    width: 18px;
+ }
