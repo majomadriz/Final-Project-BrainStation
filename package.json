@@ -9,7 +9,8 @@
     "sass": "node-sass scss/main.scss css/master.css -w",
     "build": "parcel build index.html",
     "dev": "parcel index.html --open",
-    "start": "npm run build && npm run dev",
+    "core": "npm run build && npm run dev",
+    "start": "npm run sass & npm run core",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {

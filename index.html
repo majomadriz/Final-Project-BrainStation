@@ -22,8 +22,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
     rel="stylesheet">
+  
 
-    <!--Contact section-->
+<!--Contact section-->
 
 <!--===============================================================================================-->
 <!-- <link rel="icon" type="image/png" href="images/icons/favicon.ico"/> -->
@@ -63,39 +64,34 @@
 
 
   <!--Non collapsable nav desktop-->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light d-none d-md-block">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light d-none d-lg-block">
     <div class="container">
       <a class="navbar-brand d-flex align-items-center" href="#"><i class="bi bi-egg d-flex me-1"></i> CUMPANIS</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">About</a>
+            <a class="nav-link active" aria-current="page" href="#about">About</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            <a class="nav-link dropdown-toggle" href="#menu" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
               Menu
             </a>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+            <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
           </li>
         </ul>
         <form class="d-flex">
-          <button class="btn btn-outline-subscribe" type="submit">Sign Up</button>
-          <button class="btn btn-outline-login" type="submit">Log In</button>
+          <button class="btn btn-outline-login" type="submit">Order now</button>
         </form>
     </div>
   </nav>
 
   <!--Collapsable nav mobile-->
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light d-block d-md-none">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light d-block d-lg-none">
     <div class="container">
       <a class="navbar-brand d-flex align-items-center" href="#"><i class="bi bi-egg d-flex me-1"></i> CUMPANIS</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -105,23 +101,22 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">About</a>
+            <a class="nav-link active" aria-current="page" href="#about">About</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+            <a class="nav-link dropdown-toggle" href="#menu" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
               aria-expanded="false">
               Menu
             </a>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Contact</a>
+            <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
           </li>
         </ul>
         <form class="d-flex">
-          <button class="btn btn-outline-subscribe" type="submit">Sign Up</button>
-          <button class="btn btn-outline-login" type="submit">Log In</button>
+          <button class="btn btn-outline-login" type="submit">Order now</button>
         </form>
       </div>
     </div>
@@ -194,7 +189,7 @@
 
   <!--Section About-->
 
-  <div class="container-fluid">
+  <div class="container-fluid" id="about">
     <div class="container section-margin header-padding">
       <div class="row">
         <!-- Imagen header izq-->
@@ -235,7 +230,7 @@
               <h5 class="card-title">Pastry</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
-              <a href="#" class="btn btn-card-center">Open</a>
+              <a href="/pastryMenu.html" class="btn btn-card-center">Open</a>
             </div>
           </div>
         </div>
@@ -248,7 +243,7 @@
               <h5 class="card-title">Sourdough Bread</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
-              <a href="#" class="btn btn-card-center">Open</a>
+              <a href="/sourDMenu.html" class="btn btn-card-center">Open</a>
             </div>
           </div>
         </div>
@@ -261,7 +256,7 @@
               <h5 class="card-title">Salads</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
                 content.</p>
-              <a href="#" class="btn btn-card-center">Open</a>
+              <a href="/saladMenu.html" class="btn btn-card-center">Open</a>
             </div>
           </div>
         </div>
