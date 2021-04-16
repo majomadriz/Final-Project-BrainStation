@@ -20,6 +20,9 @@ img {
 .section-padding {
   padding: 40px 0px; }
 
+.section-margin-bottom {
+  margin-bottom: 50px; }
+
 .badge {
   background-color: #ED1C24; }
 
@@ -114,9 +117,17 @@ a {
 .title-header {
   font-family: 'Quicksand', sans-serif;
   font-size: 52px;
-  color: #C67139;
+  color: #521300;
   margin: 12px 0px;
   line-height: 56px; }
+
+.title-header-right {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 52px;
+  color: #C67139;
+  margin: 12px 0px;
+  line-height: 56px;
+  text-align: right; }
 
 .subtitle-header {
   font-size: 14px;
@@ -124,10 +135,17 @@ a {
   line-height: 22px;
   margin-bottom: 20px; }
 
+.subtitle-header-rigth {
+  font-size: 14px;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 22px;
+  margin-bottom: 20px;
+  text-align: right; }
+
 .main-subtitle {
   font-family: 'Quicksand', sans-serif;
   font-size: 24px;
-  color: #C67139;
+  color: #521300;
   margin: 12px 0px;
   line-height: 56px;
   text-align: center; }
@@ -337,7 +355,7 @@ iframe {
   display: block;
   font-family: 'Quicksand', sans-serif;
   font-size: 24px;
-  color: #C67139;
+  color: #521300;
   line-height: 1.2;
   text-align: center;
   padding-bottom: 45px; }
