@@ -34,112 +34,12 @@ img {
     margin-bottom: 50px;
 }
 
-.badge {
-    background-color: #ED1C24;
-}
-
-//Nav
-
-a {
-    font-family: 'Quicksand', sans-serif;
-}
-
-.navbar {
-    padding: 16px 12px;
-}
-
 //Margins
 .section-margin {
     margin-bottom: 70px;
 }
 
- //Buttons   
-.btn-outline-subscribe {
-    color: #ffffff;
-    background-color: $main-color;
-    border-color: $main-color;
-    border-radius: 50px;
-    border-width: 2px;
-    margin-right: 15px;
-    font-size: 12px;
-    width: 108px;
-    height: 40px;
-    font-family: 'Quicksand', sans-serif;
-    &:hover {
-        color: $main-color;
-        background-color: #ffffff;
-    }
-}
-
-.btn-outline-login {
-    color: $main-color;
-    border-color: $main-color;
-    border-radius: 50px;
-    border-width: 2px; 
-    font-size: 12px;
-    width: 108px;
-    height: 40px;
-    font-family: 'Quicksand', sans-serif;
-    &:hover {
-        color: #ffffff;
-        background-color: $main-color
-    }
-}
-
-.btn-main {
-    color: #ffffff;
-    background-color: $main-color;
-    border-color: $main-color;
-    border-radius: 50px;
-    border-width: 2px;
-    margin-right: 15px;
-    font-size: 12px;
-    width: 108px;
-    height: 40px;
-    font-family: 'Quicksand', sans-serif;
-    &:hover {
-        color: $main-color;
-        background-color: #ffffff;
-    }
-}
-
-.btn-card-center {
-    color: #ffffff;
-    background-color: $main-color;
-    border-color: $main-color;
-    border-radius: 50px;
-    border-width: 2px;
-    font-size: 12px;
-    width: 108px;
-    height: 40px;
-    font-family: 'Quicksand', sans-serif;
-    margin: 36px 0px 6px 0px;
-    line-height: 2.0;
-    &:hover {
-        color: #FFFFFF;
-        background-color: transparent;
-        border-color: #FFFFFF;
-    }
-}
-
-.btn-card-center-dark {
-    color: #ffffff;
-    background-color: $main-color;
-    border-color: $main-color;
-    border-radius: 50px;
-    border-width: 2px;
-    font-size: 12px;
-    width: 108px;
-    height: 40px;
-    font-family: 'Quicksand', sans-serif;
-    margin: 36px 0px 6px 0px;
-    line-height: 2.0;
-    &:hover {
-        color: $main-color;
-        background-color: #ffffff;
-    }
-}
-
+ 
 //Img
 .image-header {
     width: 500px;

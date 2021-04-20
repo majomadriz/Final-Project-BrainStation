@@ -1,0 +1,23 @@
+@import './variables.scss';
+@import './mixins.scss';
+
+//Nav
+
+a {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.navbar {
+    padding: 16px 12px;
+}
+
+.badge {
+    background-color: #ED1C24;
+}
+
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+    z-index: 2;
+}
