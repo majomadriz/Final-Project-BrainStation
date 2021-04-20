@@ -76,7 +76,7 @@
     -o-transition: all 0.4s;
     -moz-transition: all 0.4s;
     transition: all 0.4s;
-    
+
     &:hover {
         color: #FFFFFF;
    }
@@ -121,41 +121,6 @@
   }
 
 
-.btn-card-center {
-    color: #ffffff;
-    background-color: $main-color;
-    border-color: $main-color;
-    border-radius: 50px;
-    border-width: 2px;
-    font-size: 14px;
-    width: 108px;
-    padding: 14px 0px;
-    // height: 40px;
-    font-family: 'Quicksand', sans-serif;
-    margin: 36px 0px 6px 0px;
-    // line-height: 2.0;
-    &:hover {
-        color: #FFFFFF;
-        background-color: transparent;
-        border-color: #FFFFFF;
-    }
-}
 
-.btn-card-center-dark {
-    color: #ffffff;
-    background-color: $main-color;
-    border-color: $main-color;
-    border-radius: 50px;
-    border-width: 2px;
-    font-size: 14px;
-    width: 108px;
-    // height: 40px;
-    padding: 14px 0px;
-    font-family: 'Quicksand', sans-serif;
-    margin: 36px 0px 6px 0px;
-    // line-height: 2.0;
-    &:hover {
-        color: $main-color;
-        background-color: #ffffff;
-    }
-}
+
+
