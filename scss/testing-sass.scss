@@ -44,6 +44,9 @@ img {
 .image-header {
     width: 500px;
 }
+.image-half-section {
+    width: 500px;
+}
 
 //Text
 //Header
@@ -90,9 +93,9 @@ img {
 
 .main-text-centered {
     font-family: 'Quicksand', sans-serif;
-    font-size: 14px;;
-    margin: 12px 0px;
-    line-height: 20px; 
+    font-size: 14px;
+    margin: -4px 0px 60px 0px;
+    line-height: 20px;
     text-align: center;
     //padding: 10px 200px 50px 200px;
 }
@@ -115,13 +118,22 @@ img {
     padding: 10px 40px 0px 40px;
 }
 
+.left-aligned-text {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;;
+    margin: 12px 0px;
+    line-height: 20px; 
+    text-align: left;
+    padding: 0px 40px 50px 40px;
+}
+
 .centered-div {
     text-align: center;
 }
 
 .main-icon {
     font-size: 64px;
-    color: $main-color;
+    color: $main-mint-dark;
 }
 
 //Cards
