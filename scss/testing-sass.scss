@@ -48,6 +48,10 @@ img {
     width: 500px;
 }
 
+.medium-size-img {
+    width: 420px;
+}
+
 //Text
 //Header
 .title-header {
@@ -120,11 +124,13 @@ img {
 
 .left-aligned-text {
     font-family: 'Quicksand', sans-serif;
-    font-size: 14px;;
+    font-size: 14px;
     margin: 12px 0px;
-    line-height: 20px; 
+    line-height: 20px;
     text-align: left;
-    padding: 0px 40px 50px 40px;
+    padding: 40px 50px 40px 50px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
 }
 
 .centered-div {

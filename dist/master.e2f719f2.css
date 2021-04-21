@@ -32,6 +32,9 @@ img {
 .image-half-section {
   width: 500px; }
 
+.medium-size-img {
+  width: 420px; }
+
 .title-header {
   font-family: 'Quicksand', sans-serif;
   font-size: 52px;
@@ -97,7 +100,9 @@ img {
   margin: 12px 0px;
   line-height: 20px;
   text-align: left;
-  padding: 0px 40px 50px 40px; }
+  padding: 40px 50px 40px 50px;
+  background-color: #f1f1f1;
+  border-radius: 10px; }
 
 .centered-div {
   text-align: center; }
@@ -255,6 +260,7 @@ iframe {
   align-items: center;
   padding: 15px;
   background-color: #a5bbba;
+  border-radius: 50px;
   background: -webkit-linear-gradient(45deg, #a5bbba, #f1b103);
   background: -o-linear-gradient(45deg, #a5bbba, #f1b103);
   background: -moz-linear-gradient(45deg, #a5bbba, #f1b103);
@@ -265,7 +271,7 @@ iframe {
 .wrap-contact100 {
   width: 790px;
   background: #fff;
-  border-radius: 2px;
+  border-radius: 10px;
   padding: 55px 95px 68px 95px; }
 
 /*==================================================================
