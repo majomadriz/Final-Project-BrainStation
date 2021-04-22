@@ -60,6 +60,7 @@ img {
     color: $main-color-dark;
     margin: 12px 0px;
     line-height: 56px;
+    font-weight: 500;
 }
 
 .title-header-right {
@@ -69,13 +70,37 @@ img {
     margin: 12px 0px;
     line-height: 56px;
     text-align: right;
+    font-weight: 500;
 }
+
+.main-title-right {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;;
+    color: $main-color-dark;
+    margin: 12px 0px;
+    line-height: 56px; 
+    text-align: right;
+    font-weight: 500;
+}
+
+.main-title-left {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 42px;;
+    color: $main-color-dark;
+    margin: 12px 0px;
+    line-height: 56px; 
+    text-align: left;
+    font-weight: 500;
+}
+
+
 
 .subtitle-header {
     font-size: 14px;
     font-family: 'Quicksand', sans-serif;
     line-height: 22px;
     margin-bottom: 20px;
+    font-weight: 500;
 }
 
 .subtitle-header-rigth {
@@ -84,6 +109,7 @@ img {
     line-height: 22px;
     margin-bottom: 20px;
     text-align: right;
+    font-weight: 500;
 }
 
 .main-subtitle {
@@ -93,6 +119,7 @@ img {
     margin: 12px 0px;
     line-height: 56px; 
     text-align: center;
+    font-weight: 500;
 }
 
 .main-text-centered {
@@ -120,6 +147,7 @@ img {
     line-height: 20px; 
     text-align: center;
     padding: 10px 40px 0px 40px;
+    color: $main-color-dark;
 }
 
 .left-aligned-text {
@@ -189,4 +217,23 @@ img {
 
  .social-media-icons {
     width: 18px;
+ }
+
+ .footer-color {
+     color: #FFFFFF;
+ }
+
+ .copy-color {
+     background-color: #f8f9fa;
+ }
+
+ //Gradients
+
+ .section-gradient {
+    background-color: #a5bbba;
+    border-radius: 50px;
+    background: -webkit-linear-gradient(45deg, 179deg, #fbfbfb, #ffffff);
+      background: -o-linear-gradient(45deg, 179deg, #fbfbfb, #ffffff);
+      background: -moz-linear-gradient(45deg, 179deg, #fbfbfb, #ffffff);
+      background: linear-gradient(179deg, #fbfbfb, #ffffff);
  }

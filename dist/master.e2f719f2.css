@@ -40,7 +40,8 @@ img {
   font-size: 52px;
   color: #583340;
   margin: 12px 0px;
-  line-height: 56px; }
+  line-height: 56px;
+  font-weight: 500; }
 
 .title-header-right {
   font-family: 'Quicksand', sans-serif;
@@ -48,20 +49,41 @@ img {
   color: #f1b103;
   margin: 12px 0px;
   line-height: 56px;
-  text-align: right; }
+  text-align: right;
+  font-weight: 500; }
+
+.main-title-right {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 24px;
+  color: #583340;
+  margin: 12px 0px;
+  line-height: 56px;
+  text-align: right;
+  font-weight: 500; }
+
+.main-title-left {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 42px;
+  color: #583340;
+  margin: 12px 0px;
+  line-height: 56px;
+  text-align: left;
+  font-weight: 500; }
 
 .subtitle-header {
   font-size: 14px;
   font-family: 'Quicksand', sans-serif;
   line-height: 22px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  font-weight: 500; }
 
 .subtitle-header-rigth {
   font-size: 14px;
   font-family: 'Quicksand', sans-serif;
   line-height: 22px;
   margin-bottom: 20px;
-  text-align: right; }
+  text-align: right;
+  font-weight: 500; }
 
 .main-subtitle {
   font-family: 'Quicksand', sans-serif;
@@ -69,7 +91,8 @@ img {
   color: #583340;
   margin: 12px 0px;
   line-height: 56px;
-  text-align: center; }
+  text-align: center;
+  font-weight: 500; }
 
 .main-text-centered {
   font-family: 'Quicksand', sans-serif;
@@ -92,7 +115,8 @@ img {
   margin: 12px 0px;
   line-height: 20px;
   text-align: center;
-  padding: 10px 40px 0px 40px; }
+  padding: 10px 40px 0px 40px;
+  color: #583340; }
 
 .left-aligned-text {
   font-family: 'Quicksand', sans-serif;
@@ -142,6 +166,20 @@ img {
 
 .social-media-icons {
   width: 18px; }
+
+.footer-color {
+  color: #FFFFFF; }
+
+.copy-color {
+  background-color: #f8f9fa; }
+
+.section-gradient {
+  background-color: #a5bbba;
+  border-radius: 50px;
+  background: -webkit-linear-gradient(45deg, 179deg, #fbfbfb, #ffffff);
+  background: -o-linear-gradient(45deg, 179deg, #fbfbfb, #ffffff);
+  background: -moz-linear-gradient(45deg, 179deg, #fbfbfb, #ffffff);
+  background: linear-gradient(179deg, #fbfbfb, #ffffff); }
 
 /*---------------------------------------------*/
 a {
@@ -294,7 +332,8 @@ iframe {
   color: #583340;
   line-height: 1.2;
   text-align: center;
-  padding-bottom: 45px; }
+  padding-bottom: 45px;
+  font-weight: 500; }
 
 /*------------------------------------------------------------------
 [ Input ]*/
