@@ -7,6 +7,14 @@ a {
     font-family: 'Quicksand', sans-serif;
 }
 
+.nav-link:hover {
+    color: $main-mint-dark !important;
+}
+
+.dropdown-item:hover {
+    color: $main-mint-dark !important;
+}
+
 .navbar {
     padding: 16px 12px;
 }

@@ -128,6 +128,15 @@ img {
   background-color: #f1f1f1;
   border-radius: 10px; }
 
+.left-aligned-sm {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  margin: 0px 0px 20px 0px;
+  line-height: 20px;
+  text-align: left;
+  padding: 6px 30px 10px 30px;
+  border-radius: 10px; }
+
 .centered-div {
   text-align: center; }
 
@@ -163,6 +172,11 @@ img {
 
 .col-form-label {
   font-size: 13px; }
+
+.mint-dark-sm-icon {
+  color: #85a5a2;
+  font-size: 16px;
+  margin-right: 8px; }
 
 .social-media-icons {
   width: 18px; }
@@ -601,6 +615,12 @@ textarea.input100 {
 
 a {
   font-family: 'Quicksand', sans-serif; }
+
+.nav-link:hover {
+  color: #85a5a2 !important; }
+
+.dropdown-item:hover {
+  color: #85a5a2 !important; }
 
 .navbar {
   padding: 16px 12px; }
